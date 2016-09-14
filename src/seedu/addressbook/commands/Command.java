@@ -39,7 +39,7 @@ public abstract class Command {
     /**
      * Executes the command and returns the result.
      */
-    public abstract CommandResult execute();
+    public abstract CommandResult execute() throws Exception;
     
     /* Check every Execute command that it need to be save or not*/
     public abstract boolean isMutating();
