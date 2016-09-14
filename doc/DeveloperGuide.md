@@ -74,6 +74,27 @@ Use case ends.
 
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
+  
+### Use case: Renaming existing tag
+
+**MSS**
+
+1. User requests to list tags
+2. AddressBook show the list of tags
+3. User request to rename a selected tag
+4. AddressBook rename the selected tag
+Use case ends.
+
+**Extensions**
+
+2a. The list is empty
+
+> Use case ends
+
+3a. The given index is invalid
+
+> 3a1. AddressBook shows an error message <br>
+  Use case resumes at step 2
 
 ## Appendix C : Non Functional Requirements
 
